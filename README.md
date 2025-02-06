@@ -29,7 +29,7 @@ docker exec -it mycentos httpd
 5. Get the IP Address of the Container
 ```bash
 
-docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mycentos
+docker inspect mycentos | grep IP
 Example Output: 172.17.0.2
 ```
 7. Test the Webpage from RHEL
