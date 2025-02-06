@@ -43,4 +43,4 @@ Expected Output:
 ## **Project Screenshot**
 Here’s the output of `curl` from RHEL after running the CentOS container:
 
-![Project Screenshot](output.png)
+![Project Screenshot](image.png)
